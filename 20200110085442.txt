@@ -1,0 +1,21 @@
+######2020-01-10######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESP_Easy_mega-20190817_test_core_260_sdk2_alpha_ESP8266_4M.bin
+COM port: (COM4) USB-SERIAL CH340 (Port_#0001.Hub_#0001)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM4 -ca 0x00000 -cf "C:\Users\jonat\OneDrive\Documents\ESPEasy_mega-NEXTION\bin\ESP_Easy_mega-20190817_test_core_260_sdk2_alpha_ESP8266_4M.bin"]
+[10-01-20 08:54:42] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[10-01-20 08:54:42] 	setting board to nodemcu
+[10-01-20 08:54:42] 	setting baudrate from 115200 to 115200
+[10-01-20 08:54:42] 	setting port from  to COM4
+[10-01-20 08:54:42] 	setting address from 0x00000000 to 0x00000000
+[10-01-20 08:54:42] 	espcomm_upload_file
+[10-01-20 08:54:42] 	espcomm_upload_mem
+[10-01-20 08:54:42] error: Failed to open COM4
+[10-01-20 08:54:42] error: espcomm_open failed
+[10-01-20 08:54:42] error: espcomm_upload_mem failed
+[2020-01-10 08:54:42] STOPPED due to 3 errors! (try reset on the unit, then start a new flash attempt)
